@@ -1,0 +1,8 @@
+{
+  "name": "livescript-complete",
+  "description": "LiveScript bundled for Meteor",
+  "homepage": "https://github.com/quarterto/meteor-livescript",
+  "author": "Matt Brennan  (matt.brennan@import.io)",
+  "version": "0.0.1",
+  "git": "https://github.com/quarterto/meteor-livescript.git",
+}
