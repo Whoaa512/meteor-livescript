@@ -1,0 +1,3 @@
+[submodule "LiveScript"]
+	path = LiveScript
+	url = git@github.com:gkz/LiveScript
