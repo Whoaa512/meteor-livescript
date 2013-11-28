@@ -1,8 +1,9 @@
 {
-  "name": "livescript-complete",
+  "name": "livescript",
   "description": "LiveScript bundled for Meteor",
-  "homepage": "https://github.com/quarterto/meteor-livescript",
-  "author": "Matt Brennan  (matt.brennan@import.io)",
+  "homepage": "https://github.com/Whoaa512/meteor-livescript",
+  "original_author": "Matt Brennan  (matt.brennan@import.io)",
+  "maintainer": "C. J. Winslow (whoaa512@gmail.com)",
   "version": "0.0.1",
-  "git": "https://github.com/quarterto/meteor-livescript.git"
+  "git": "https://github.com/Whoaa512/meteor-livescript.git"
 }
