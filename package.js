@@ -1,15 +1,10 @@
-Package.describe({summary: "Add support for LiveScript, a more functional take on Coffeescript."});
+Package.describe({summary: "LiveScript, a CoffeeScript descendant with improvements and new features."});
 
-Package.register_extension("ls", function(bundle, src, srv, where) {
-	var contents, compiled;
-
-	contents = require('fs').readFileSync(src, 'utf8');
-	compiled = require('./LiveScript').compile(contents, {bare:true});
-
-	bundle.add_resource({
-		type: "js",
-		path: srv+'.js',
-		data: new Buffer(compiled),
-		where: where
-	});
+Package._transitional_registerBuildPlugin({
+  name: "compileLiveScript",
+  use: [],
+  sources: [
+    'plugin/compile-livescript.js'
+  ],
+  npmDependencies: {"LiveScript": "1.2.0"}
 });

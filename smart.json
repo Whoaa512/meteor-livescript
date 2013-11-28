@@ -1,8 +1,7 @@
 {
-  "name": "livescript",
+  "name": "livescript-latest",
   "description": "LiveScript bundled for Meteor",
   "homepage": "https://github.com/Whoaa512/meteor-livescript",
-  "original_author": "Matt Brennan  (matt.brennan@import.io)",
   "author": "C. J. Winslow (whoaa512@gmail.com)",
   "version": "1.2.0",
   "git": "https://github.com/Whoaa512/meteor-livescript.git"
